@@ -2,14 +2,16 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 // import App from './App';
-// import KartuNama from './component/KartuNama';
-import KartuMeong from './component/KartuMeong';
+import KartuNama from './component/KartuNama';
+// import KartuMeong from './component/KartuMeong';
+import PageInput from './component/PageInput';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <KartuMeong/>
+    <KartuNama/>
+    <PageInput/>
   </React.StrictMode>
 );
 
